@@ -9,7 +9,7 @@ const ChartDetail = () => {
     data: [],
   };
   const [data, setData] = useState(initialState);
-  console.log(data)
+  //console.log(data)
 
   return (
     <div className="chart-detail">
