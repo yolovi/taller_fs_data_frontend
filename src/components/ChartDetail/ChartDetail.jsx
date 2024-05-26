@@ -1,8 +1,9 @@
 import { useState } from "react";
 
-const Chart = () => {
+const ChartDetail = () => {
 
-  const API_URL = "http://localhost:8080/";
+
+  const API_URL = "http://localhost:8080/id/";
 
   const initialState = {
     data: [],
@@ -11,8 +12,8 @@ const Chart = () => {
   console.log(data)
 
   return (
-    <div className="chart">
-      Estás en Chart
+    <div className="chart-detail">
+      Estás en Chart Detail by Id
       <div>
 
       </div>
@@ -20,7 +21,7 @@ const Chart = () => {
   );
 };
 
-export default Chart;
+export default ChartDetail;
 
 
 // data: [

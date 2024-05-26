@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Header = () => {
   return (
     <nav className="header">
@@ -11,6 +12,9 @@ const Header = () => {
         </span>
         <span>
           <Link to="/chart">Chart</Link>
+        </span>
+        <span>
+            <Link to="/chartdetail">Chart Detail By Id</Link>
         </span>
       </div>
     </nav>
