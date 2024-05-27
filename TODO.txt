@@ -1,0 +1,8 @@
+- Limpiar console.log
+- Limpiar código comentado
+- Eliminar este archivo al terminar
+
+//TODO: 
+✅ - Filtar por nombre los centros comercios (con el Array from y el New Set)
+- Agrupar las cantidades de venta por métodos de pago > pintar el chart
+- investigar como recoge la gráfica estos datos

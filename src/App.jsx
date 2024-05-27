@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Chart from "./components/Chart/Chart";
-import ChartDetail from "./components/ChartDetail/ChartDetail";
+import Invoices from "./components/Invoices/Invoices";
+import ChartPaidMethod from "./components/Charts/ChartPaidMethod/ChartPaidMethod";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/chart" element={<Chart />} />
-          <Route path="/chartdetail" element={<ChartDetail />} />
+          <Route path="/Invoices" element={<Invoices />} />
+          <Route path="/ChartPaidMethod" element={<ChartPaidMethod />} />
         </Routes>
       </BrowserRouter>
     </div>
