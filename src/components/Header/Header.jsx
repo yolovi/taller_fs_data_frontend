@@ -16,6 +16,9 @@ const Header = () => {
         <span>
             <Link to="/ChartPaidMethod">Chart Detail By Id</Link>
         </span>
+        <span>
+          <Link to="/ChartGender">Chart Gender</Link>
+        </span>
       </div>
     </nav>
 
