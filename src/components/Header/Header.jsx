@@ -11,14 +11,14 @@ const Header = () => {
           <Link to="/">Home</Link>
         </span>
         <span>
-          <Link to="/Invoices">Chart</Link>
-        </span>
-        <span>
-            <Link to="/ChartPaidMethod">Chart Detail By Id</Link>
-        </span>
-        <span>
           <Link to="/ChartGender">Chart Gender</Link>
         </span>
+        {/* <span>
+          <Link to="/ChartProductCategory">Chart Product Category</Link>
+        </span>
+        <span>
+            <Link to="/ChartPaidMethod">Chart Paid Method</Link>
+        </span> */}
       </div>
     </nav>
 
