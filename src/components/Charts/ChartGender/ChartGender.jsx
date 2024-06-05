@@ -11,8 +11,8 @@ const ChartGender = ({ data }) => {
     const total = maleCount + femaleCount;
 
     const dataReady = [
-      { name: 'Male', value: maleCount, percentage: ((maleCount / total) * 100).toFixed(2) },
-      { name: 'Female', value: femaleCount, percentage: ((femaleCount / total) * 100).toFixed(2) }
+      { name: 'Male', value: maleCount, percentage: ((maleCount / total) * 100).toFixed(1) },
+      { name: 'Female', value: femaleCount, percentage: ((femaleCount / total) * 100).toFixed(1) }
     ];
 
     setGenderData(dataReady);
@@ -31,7 +31,7 @@ const ChartGender = ({ data }) => {
       .append("g")
       .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-    const color = d3.scaleOrdinal(["#4daf4a", "#377eb8"]);
+    const color = d3.scaleOrdinal(["#20EFA8", "#9D82D6"]);
 
     const pie = d3.pie().value(d => d.value);
 
